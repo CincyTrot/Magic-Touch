@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Touch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #ff4d4d;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .services, .testimonials {
+            background: #f4f4f4;
+            margin: 20px 0;
+        }
+        .service, .testimonial {
+            margin: 10px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        .contact-form button {
+            background: #ff4d4d;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #e63939;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Magic Touch</h1>
+        <p>Look Your Best Every Day</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Haircuts</h3>
+            <p>Modern and classic styles for all ages.</p>
+        </div>
+        <div class="service">
+            <h3>Hair Coloring</h3>
+            <p>Professional coloring and highlights.</p>
+        </div>
+        <div class="service">
+            <h3>Styling</h3>
+            <p>Perfect styles for any occasion.</p>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Amazing service! My hair has never looked better."</p>
+            <strong>- Sarah M.</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Friendly staff and a relaxing atmosphere."</p>
+            <strong>- Michael T.</strong>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Fill out the form below to get in touch.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Glamour Hair Studio | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
